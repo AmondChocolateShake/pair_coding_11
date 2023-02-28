@@ -10,3 +10,5 @@ isuue 1
 git revert를 통해 복구했지만 좋은 방법이 아님, 다행히 branch와 commit 그래도 적당히 구분해둬서 해결
 
 
+피그마:
+https://www.figma.com/file/v4x2yuqhfpfdrqFAc1vwax/Untitled?node-id=0%3A1&t=cm6N8quzrvXxS09J-0
