@@ -18,8 +18,27 @@ function createDivChildren(root,num){
   for(let i=0;i<num;i+=1){
     root.appendChild(createDiv());
   }
+  return root.children;
 }
 
 
-createDivChildren(root,2);
+//가장 큰 컨테이너
+let outContainers= createDivChildren(root,2);
+
+
+//container1의 자식 요소 추가
+let Header=createDiv();
+let Line=createDiv();
+let Ctxt=createDiv();
+outContainers[0].appendChild(Header);
+outContainers[0].appendChild(Line);
+outContainers[0].appendChild(Ctxt);
+
+
+//container2의 자식요소 추가
+let Circle=createDiv();
+outContainers[1].appendChild(Circle);
+
+
+
 
